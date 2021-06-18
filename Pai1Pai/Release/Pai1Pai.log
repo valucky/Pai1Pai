@@ -1,0 +1,50 @@
+﻿生成启动时间为 2019/1/19 11:05:21。
+     1>项目“D:\Projects\Pai1Pai\Pai1Pai\Pai1Pai.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Release\Pai1Pai.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv3.0.0b\opencv\build\include /IC:\opencv3.0.0b\opencv\build\include\opencv /IC:\opencv3.0.0b\opencv\build\include\opencv2 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\Pai1Pai.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\opencv3.0.0b\opencv\build\include /IC:\opencv3.0.0b\opencv\build\include\opencv /IC:\opencv3.0.0b\opencv\build\include\opencv2 /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\Pai1Pai.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt BidUrl.cpp CWebBrowser2.cpp Do_cv_pic.cpp Pai1Pai.cpp Pai1PaiDlg.cpp SysSetUp.cpp
+         BidUrl.cpp
+         CWebBrowser2.cpp
+         Do_cv_pic.cpp
+     1>Do_cv_pic.cpp(4): warning C4005: “_AFXDLL”: 宏重定义
+                 命令行参数: 参见前面的“_AFXDLL”定义
+     1>C:\opencv3.0.0b\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>C:\opencv3.0.0b\opencv\build\include\opencv2/core/mat.hpp(1413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>Do_cv_pic.cpp(399): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Do_cv_pic.cpp(486): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         Pai1Pai.cpp
+         Pai1PaiDlg.cpp
+     1>Pai1PaiDlg.cpp(639): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Pai1PaiDlg.cpp(641): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         SysSetUp.cpp
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\Pai1Pai.res" Pai1Pai.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Projects\Pai1Pai\Release\Pai1Pai.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\opencv3.0.0b\opencv\build\x86\vc10\lib opencv_ts300d.lib opencv_world300d.lib opencv_ts300.lib opencv_world300.lib /MANIFEST /ManifestFile:"Release\Pai1Pai.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Projects\Pai1Pai\Release\Pai1Pai.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Projects\Pai1Pai\Release\Pai1Pai.lib" /MACHINE:X86 Release\Pai1Pai.res
+         Release\BidUrl.obj
+         Release\CWebBrowser2.obj
+         Release\Do_cv_pic.obj
+         Release\Pai1Pai.obj
+         Release\Pai1PaiDlg.obj
+         Release\stdafx.obj
+         Release\SysSetUp.obj
+         正在生成代码
+         已完成代码的生成
+         Pai1Pai.vcxproj -> D:\Projects\Pai1Pai\Release\Pai1Pai.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Projects\Pai1Pai\Release\Pai1Pai.exe;#1" /manifest Release\Pai1Pai.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
+       FinalizeBuildStatus:
+         正在删除文件“Release\Pai1Pai.unsuccessfulbuild”。
+         正在对“Release\Pai1Pai.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Projects\Pai1Pai\Pai1Pai\Pai1Pai.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:10.72
